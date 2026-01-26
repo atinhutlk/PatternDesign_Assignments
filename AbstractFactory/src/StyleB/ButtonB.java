@@ -1,6 +1,8 @@
-package UI.StyleB;
+package StyleB;
 
-public class ButtonB extends UI.Button {
+import UI.Button;
+
+public class ButtonB extends Button {
     public ButtonB(String text) {
         super(text);
     }

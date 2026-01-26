@@ -1,6 +1,7 @@
-package UI.StyleA;
+package StyleA;
 
 import UI.TextField;
+
 public class TextFieldA extends TextField {
     public TextFieldA(String text) {
         super(text);

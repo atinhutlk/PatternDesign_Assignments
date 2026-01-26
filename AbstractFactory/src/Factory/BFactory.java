@@ -1,8 +1,8 @@
-package UI.Factory;
+package Factory;
 
-import UI.StyleB.ButtonB;
-import UI.StyleB.TextFieldB;
-import UI.StyleB.CheckboxB;
+import StyleB.ButtonB;
+import StyleB.TextFieldB;
+import StyleB.CheckboxB;
 import UI.TextField;
 import UI.Checkbox;
 import UI.Button;

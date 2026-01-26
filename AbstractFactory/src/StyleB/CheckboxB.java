@@ -1,5 +1,4 @@
-package UI.StyleB;
-
+package StyleB;
 import UI.Checkbox;
 
 public class CheckboxB extends Checkbox {

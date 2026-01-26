@@ -1,14 +1,17 @@
-package UI;
 
-import UI.Factory.AFactory;
-import UI.Factory.BFactory;
-import UI.Factory.UIFactory;
+
+import Factory.AFactory;
+import Factory.BFactory;
+import Factory.UIFactory;
+import UI.Button;
+import UI.Checkbox;
+import UI.TextField;
 
 public class Main {
     public static void main(String[] args) {
 
-        UIFactory factory = new AFactory();
-        //UIFactory factory = new BFactory();
+        //UIFactory factory = new AFactory();
+        UIFactory factory = new BFactory();
         Button button = factory.createButton("OK");
         TextField textField = factory.createTextField("username");
         Checkbox checkBox = factory.createCheckbox("Remember me");

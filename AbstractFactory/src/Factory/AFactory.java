@@ -1,12 +1,11 @@
-package UI.Factory;
+package Factory;
 
 import UI.Button;
-import UI.StyleA.ButtonA;
-import UI.StyleA.TextFieldA;
-import UI.StyleA.CheckboxA;
+import StyleA.ButtonA;
+import StyleA.TextFieldA;
+import StyleA.CheckboxA;
 import UI.TextField;
 import UI.Checkbox;
-
 public class AFactory extends UIFactory {
     @Override
     public Button createButton(String text) {

@@ -1,4 +1,4 @@
-package UI.StyleA;
+package StyleA;
 
 import UI.Button;
 

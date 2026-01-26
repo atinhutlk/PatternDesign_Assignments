@@ -1,4 +1,4 @@
-package UI.StyleB;
+package StyleB;
 
 import UI.TextField;
 public class TextFieldB extends TextField {

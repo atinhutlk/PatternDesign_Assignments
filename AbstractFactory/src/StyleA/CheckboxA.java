@@ -1,5 +1,7 @@
-package UI.StyleA;
+package StyleA;
+
 import UI.Checkbox;
+
 public class CheckboxA extends Checkbox{
     public CheckboxA(String text) {
         super(text);
@@ -10,4 +12,3 @@ public class CheckboxA extends Checkbox{
         System.out.println("[X] " + text);
     }
 }
-

@@ -1,4 +1,4 @@
-package UI.Factory;
+package Factory;
 
 import UI.Button;
 import UI.Checkbox;
