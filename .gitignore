@@ -1,0 +1,16 @@
+# IntelliJ / JetBrains
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Java build artifacts
+bin/
+target/
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
