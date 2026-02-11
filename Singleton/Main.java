@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Logger logger = Logger.getInstance();
-        logger.setFileName("new_log1.txt"); // Change file name
+        logger.setFileName("new_log2.txt"); // Change file name
         logger.write("Simulation started");
         logger.write("Processing data...");
         logger.write("Simulation finished");
